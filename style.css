@@ -1,0 +1,202 @@
+/*
+
+Theme Name: RD
+Version: 1.0
+Description: This is RD test task
+Author: Shyju Issac Alex
+*/
+
+/*---- genaral styles ------------------*/
+*{
+    box-sizing: border-box;
+    list-style: none;
+     outline: none;
+    padding: 0;
+    text-decoration: none;
+    transition: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container {
+
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    margin: 0 10px;
+}
+.wrapper {
+    display: flex;
+    position: relative;
+}
+.wrapper2 {
+    display: flex;
+    position: relative;
+    justify-content: space-between
+}
+
+/*---- header styles ------------------*/
+header {
+    padding-top: 50px ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.nav-sub {}
+
+.nav-sub ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+
+}
+
+nav {
+    width: 80%;
+}
+
+.nav-sub ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-sub ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    top: 15px;cursor: pointer;
+}
+
+nav .nav-sub {
+    display: none;
+}
+
+/*---section two-----*/
+.tile-main{
+    padding: 120px 0;
+}
+.title-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.tile-row {
+    width: 100%
+}
+
+.left-conts {
+    width: 50%;
+}
+
+.right-conts {
+    width: 34%;
+}
+
+.sec-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-nav li {
+    list-style: none;
+}
+
+.tile-row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.col {
+    width: 32%;
+
+
+}
+
+.col img {
+    width: 100%;
+}
+.col h2{
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .col {
+        width: 48%;
+
+
+    }
+
+    .right-conts {
+        width: 60%;
+    }
+    .left-conts {
+    width: 40%;
+}
+    
+    nav .nav-sub {
+    
+    width: 60vw;
+    background: white;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+}
+    .nav-sub ul {
+     
+    flex-direction: column;    margin-top: 46px;text-align: right;    width: 90%;
+}
+    header {
+    padding: 10px 0;
+}
+}
+
+/*------------single page styles---------------*/
+
+.left-cont{
+    width:48%;padding-left: 7vw;padding-top: 11%;
+}
+.left-cont h2{
+    line-height: 55px;
+}
+.left-cont p{
+    line-height: 26px;
+}
+.right-cont{
+    width:48%;
+}
+.single-cont{
+        overflow: hidden;
+    height: 100vh;
+    outline: none;
+}
